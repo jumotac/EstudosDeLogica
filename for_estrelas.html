@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+//For tem 3 partes: 1- é a variavel de inicializaçao que será icrementada; 2- a condiçao quando o for deve parar de repetir o que tiver dentro do bloco dele; 3- é o incremento da linha, no caso de 1 e 1. 
+    for(var linha = 1; linha <= 3; linha++) {
+
+    for(var coluna = 1; coluna <= 10; coluna++) {
+        document.write("*");
+    }
+    pulaLinha();
+    }
+
+</script>
