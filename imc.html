@@ -1,0 +1,73 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+//inclusao de 2 parametros
+function calculaImc(peso, altura){ 
+    var imc = peso / (altura * altura);
+    mostra("O IMC calculado é " + imc)
+}
+
+calculaImc(65, 1.62);
+calculaImc(68, 1.72);
+
+
+</script>
+
+
+<script>
+    //RETURN:
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        var imc = peso / (altura * altura);
+        return imc;
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+    mostra("O meu IMC é : " + imcCalculado);
+</script>
+
+<h1> Entendendo a fundo retorno de funções</h1>
+<script>
+    
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        return  peso / (altura * altura);
+    }
+
+    var imcFlavio = calculaImc(1.77, 75);
+    var imcAmigo = calculaImc(68, 1.72);
+    var totalImc = imcFlavio + imcAmigo
+
+    document.write("A soma dos icm's é " + totalImc)
+    pulaLinha();
+</script>
+

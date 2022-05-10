@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+
+<script>
+
+    //função - deve ser sempre um verbo, porque indica uma AÇÃO. Torna legível a intenção do que se quer fazer. Funçao é uma amálgama, ou seja, um conjunto de instruções. É um atalho para outras instruções usadas durante o programa. 
+    function pulalinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulalinha() //funçao dentro de outra função
+    }
+
+    mostra("Olá Pessoal!");
+    var ano = 2016;
+
+    //document.write("Flávio tem " + (ano - 1977) + " anos");
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+   
+    //document.write("Joaquim tem " + (ano - 1996) + " anos");
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+   
+    ano = 2017;
+    //document.write("Barney tem " + (ano - 1976) + " anos");
+    mostra("Barney tem " + (ano - 1976) + " anos");
+
+
+</script>
+
+<script>
+
+function pulalinha(){
+        document.write("<br><br>")
+    }
+
+
+    function somaDoisNumeros() {
+
+        document.write(10 + 20);
+        pulalinha()
+    }
+
+    function multiplicaDoisNumeros () {
+
+        document.write(10 * 20);
+        pulalinha()
+
+    }
+
+    function divideDoisNumeros () {
+    document.write(10/20);
+    pulalinha()
+    }
+
+    somaDoisNumeros()
+    multiplicaDoisNumeros ()
+    divideDoisNumeros ()
+
+</script>
+

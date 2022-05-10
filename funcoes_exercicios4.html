@@ -1,0 +1,116 @@
+<meta charset="UTF-8">
+
+<script>
+    function fazPegadinha() {
+        alert("Olá");
+        alert("amiga!");
+        alert("Tá");
+        alert("bastante");
+        alert("entediada?");
+        alert("Em ficar");
+        alert("Clicando em");
+        alert("Ok");
+        alert("né?");
+    }
+
+    //fazPegadinha();
+    
+</script>
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    var titulo = "Bem-vindo ao meu programa!";
+
+    document.write("<h1>" + titulo + "</h1>");
+
+    pulaLinha();
+
+    document.write("Vocês não sabem o que tive que aprender para fazer isso!");
+
+    pulaLinha();
+
+    document.write("Contudo, assistindo os vídeos e estudando ...");
+
+    pulaLinha();
+
+    document.write("Eu vou mais longe!");
+
+    pulaLinha();
+</script>
+
+
+<script>
+    var idade1 = 10;
+    var idade2 = 20;
+    var idade3 = 30;
+    var totalIdades = idade1 + idade2 + idade3;
+    var mediaIdades = totalIdades/3;
+    alert("***Total de idades é " + totalIdades + "***");
+    alert("***A média das idades é " +  mediaIdades + "***");
+</script>
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function exibeTitulo(titulo) {
+        document.write("<h1>" + titulo + "</h1>");
+        pulaLinha();
+    }
+
+    function exibeParagrafo(paragrafo) {
+        document.write("<p>" + paragrafo + "</p>");
+        pulaLinha();
+    }
+
+    // pede para alguém ler daqui em diante e veja se ele entende o que esta sendo feito
+    exibeTitulo("Bem-vindos");
+    exibeParagrafo("Este é um simples programa");
+</script>
+
+
+<script>
+    var idadeJu = 34;
+    var idadeAnderson = 43;
+    var diferencaIdades = idadeAnderson - idadeJu;
+
+    function pulalinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<h1>Qual a diferença de idade entre eu e meu esposo?</h1>");
+        document.write(frase);
+        pulalinha();
+    }
+
+    mostra("Nossa diferenca de idade é: " + diferencaIdades);
+    
+</script>
+
+
+<script>
+    var anoDescobertaBrasil = 1500;
+    var anoAtual = 2022;
+    var media = Math.round((anoAtual - anoDescobertaBrasil)/28);
+
+    function pulalinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(frase){
+        document.write("<h3>Em média, um casal tem filhos quando atinge a idade de 28 anos. Seguindo essa média, se os portugueses chegaram em 1500 no Brasil, então, a primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante. Desde 1500 até o ano atual, quantas gerações se passaram?</h3>");
+        document.write(frase);
+        pulalinha();
+    }
+
+    mostra("Já se passaram: " + media + " gerações");
+    
+</script>
+
